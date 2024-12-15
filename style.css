@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+#outerBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.innerBox {
+    height: 150px;
+    width: 150px;
+    border: 8px solid black;
+    border-radius: 25px;
+    
+}
+
+.box1 {
+    background-color: #d95980;
+}
+
+.box2 {
+    background-color: #63aac0;
+}
+
+.box3 {
+    background-color: #f99b45;
+}
+
+.box4 {
+    background-color: #819ff9;
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
